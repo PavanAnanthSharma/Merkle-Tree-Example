@@ -21,6 +21,7 @@ For example, consider a seven-transaction block. At the lowest level (called the
 Effectively, you get an upside-down binary tree, with each node of the tree connecting to only two nodes below it (hence the name "binary tree"). It has one root hash at the top, which connects to two hashes at level one, each of which again connects to the two hashes at level three (leaf-level), and the structure continues depending upon the number of transaction hashes.
 More can be found here: https://www.investopedia.com/terms/m/merkle-root-cryptocurrency.asp
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 > What is Merkle Proof:
 
