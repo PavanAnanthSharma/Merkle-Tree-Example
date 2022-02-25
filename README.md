@@ -34,4 +34,5 @@ Merkle proofs are used to decide upon the following factors:
 3. To ensure the validity of a certain data set being inclusive in a larger data set without revealing either the complete data set or its subset.
 More can be found here: https://computersciencewiki.org/index.php/Merkle_proof
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
