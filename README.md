@@ -22,7 +22,9 @@ Effectively, you get an upside-down binary tree, with each node of the tree conn
 More can be found here: https://www.investopedia.com/terms/m/merkle-root-cryptocurrency.asp
 
 
-What is Merkle Proof:
+> What is Merkle Proof:
+
+
 Merkle proofs are established by hashing a hash's corresponding hash together and climbing up the tree until you obtain the root hash which is or can be publicly known. Given that one way hashes are intended to be collision free and deterministic algorithms, no two plaintext hashes can/should be the same.
 
 Merkle proofs are used to decide upon the following factors:
