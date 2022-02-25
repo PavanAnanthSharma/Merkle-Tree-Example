@@ -12,7 +12,7 @@ More can be found here: https://en.wikipedia.org/wiki/Merkle_tree
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-What is Merkle Hash or Root hash:
+> What is Merkle Hash or Root hash:
 
 A Merkle root is the hash of all the hashes of all the transactions that are part of a block in a blockchain network. A  blockchain is comprised of various blocks that are linked with one another (hence the name blockchain). A hash tree, or the Merkle tree, encodes the blockchain data in an efficient and secure manner. It enables the quick verification of blockchain data, as well as quick movement of large amounts of data from one computer node to the other on the peer-to-peer blockchain network.
 Every transaction occurring on the blockchain network has a hash associated with it. However, these hashes are not stored in a sequential order on the block, rather in the form of a tree-like structure such that each hash is linked to its parent following a parent-child tree-like relation.
