@@ -12,7 +12,7 @@ contract MerkleProof {
 
         for (uint i = 0; i < proof.length; i++) {
             bytes32 proofElement = proof[i];
-
+ 
             if (index % 2 == 0) {
                 hash = keccak256(abi.encodePacked(hash, proofElement));
             } else {
