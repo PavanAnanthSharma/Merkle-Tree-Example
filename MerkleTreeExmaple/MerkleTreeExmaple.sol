@@ -22,7 +22,7 @@ contract MerkleProof {
             index = index / 2;
         }
  
-        return hash == root;
+        return hash == root; 
     }
 }
 
