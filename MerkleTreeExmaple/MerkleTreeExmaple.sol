@@ -18,7 +18,7 @@ contract MerkleProof {
             } else {
                 hash = keccak256(abi.encodePacked(proofElement, hash));
             }
-  
+   
             index = index / 2;
         }
  
