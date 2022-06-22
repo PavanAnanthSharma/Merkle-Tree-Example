@@ -14,7 +14,7 @@ contract MerkleProof {
             bytes32 proofElement = proof[i]; 
  
             if (index % 2 == 0) { 
-                hash = keccak256(abi.encodePacked(hash, proofElement));
+                hash = keccak256(abi.encodePacked(hash, proofElement)); 
             } else {
                 hash = keccak256(abi.encodePacked(proofElement, hash));
             }
