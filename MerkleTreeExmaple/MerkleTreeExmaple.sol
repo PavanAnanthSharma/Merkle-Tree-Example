@@ -8,7 +8,7 @@ contract MerkleProof {
         bytes32 leaf, 
         uint index  
     ) public pure returns (bool) {  
-        bytes32 hash = leaf;
+        bytes32 hash = leaf; 
 
         for (uint i = 0; i < proof.length; i++) {
             bytes32 proofElement = proof[i];
