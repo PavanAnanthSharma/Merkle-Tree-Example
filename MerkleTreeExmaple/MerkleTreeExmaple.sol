@@ -10,7 +10,7 @@ contract MerkleProof {
     ) public pure returns (bool) {  
         bytes32 hash = leaf; 
 
-        for (uint i = 0; i < proof.length; i++) {
+        for (uint i = 0; i < proof.length; i++) { 
             bytes32 proofElement = proof[i];
  
             if (index % 2 == 0) {
