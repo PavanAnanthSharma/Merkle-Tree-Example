@@ -4,7 +4,7 @@ pragma solidity ^0.8.3;
 contract MerkleProof { 
     function verify( 
         bytes32[] memory proof, 
-        bytes32 root,
+        bytes32 root, 
         bytes32 leaf, 
         uint index
     ) public pure returns (bool) {
