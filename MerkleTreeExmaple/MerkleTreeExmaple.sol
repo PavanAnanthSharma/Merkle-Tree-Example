@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT 
 pragma solidity ^0.8.3; 
 
-contract MerkleProof {
+contract MerkleProof { 
     function verify(
         bytes32[] memory proof,
         bytes32 root,
