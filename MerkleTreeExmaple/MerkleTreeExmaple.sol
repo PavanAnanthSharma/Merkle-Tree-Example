@@ -39,7 +39,7 @@ contract TestMerkleProof is MerkleProof {
 
         for (uint i = 0; i < transactions.length; i++) {
             hashes.push(keccak256(abi.encodePacked(transactions[i])));
-        }
+        };
 
         uint n = transactions.length;
         uint offset = 0;
@@ -59,7 +59,7 @@ contract TestMerkleProof is MerkleProof {
 
     function getRoot() public view returns (bytes32) {
         return hashes[hashes.length - 1];
-    }
+    };
 
     /* verify
     3rd leaf
