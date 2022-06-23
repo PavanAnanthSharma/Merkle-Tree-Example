@@ -1,4 +1,4 @@
-# Merkle-Tree-Example
+# Merkle-Tree-Example 
 This has the basic solidity code, where you can verify and test Merkle proof with Merkle Tree and root hash, yes and i understand it sounds confusing but after you get an indea trust me its super eazy.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
